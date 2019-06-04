@@ -49,6 +49,7 @@
 <c as_id="ocr" as_name="OCR 01" as_grp="[4,3]" as_ord="2">* OCR 01: Extract symbol regions (segmentation step)</c>
 <c as_id="ocr" as_name="OCR 01" as_grp="[4,3]" as_ord="3">* OCR 01: Only consider first channel for color images</c>
 <l as_id="ocr" as_name="OCR 01" as_grp="[4,3]" as_ord="4">access_channel (Image, TmpObj_Mono, 1)</l>
+<c></c>
 <l as_id="ocr" as_name="OCR 01" as_grp="[4,3]" as_ord="5">reduce_domain (TmpObj_Mono, ROI_OCR_01_0, TmpObj_MonoReduced_OCR_01_0)</l>
 <c as_id="ocr" as_name="OCR 01" as_grp="[4,3]" as_ord="6">* OCR 01: </c>
 <c as_id="ocr" as_name="OCR 01" as_grp="[4,3]" as_ord="7">* OCR 01: Orientation Correction (for consistent border and domain</c>
