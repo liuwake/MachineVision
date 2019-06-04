@@ -9,7 +9,7 @@
 <c></c>
 <c></c>
 <c>** 调用hdvp请先将当前目录添加到Procedures Directories</c>
-<l>LedAutoOcr (InputImage, SymbolNames_OCR_01_0, Confidences_OCR_01_0, Words_OCR_01_0, Scores_OCR_01_0)</l>
+<l>led_auto_ocr (InputImage, SymbolNames_OCR_01_0, Confidences_OCR_01_0, Words_OCR_01_0, Scores_OCR_01_0)</l>
 <c></c>
 </body>
 <docu id="main">
