@@ -28,7 +28,7 @@
 <c as_id="ocr" as_name="OCR 01" as_grp="[3,1]" as_ord="3">* OCR 01: ***************************************************************</c>
 <c as_id="ocr" as_name="OCR 01" as_grp="[3,1]" as_ord="4">* OCR 01: </c>
 <c as_id="ocr" as_name="OCR 01" as_grp="[3,1]" as_ord="5">* OCR 01: Load image</c>
-<l as_id="ocr" as_name="OCR 01" as_grp="[3,1]" as_ord="6">read_image (Image, 'C:/Users/iwake/OneDrive - wake/Desktop/HalconPractise/HalconProj/Led/led1.jpg')</l>
+<l as_id="ocr" as_name="OCR 01" as_grp="[3,1]" as_ord="6">read_image (Image, 'C:/Users/iwake/OneDrive - wake/Desktop/Vision/VisionProj/Led/led1.jpg')</l>
 <c as_id="ocr" as_name="OCR 01" as_grp="[4,1]" as_ord="1">* OCR 01: </c>
 <c as_id="ocr" as_name="OCR 01" as_grp="[4,1]" as_ord="2">* OCR 01: Perform actual processing (once per ROI)</c>
 <c as_id="ocr" as_name="OCR 01" as_grp="[4,3]" as_ord="1">* OCR 01: Generate regions of interest</c>
