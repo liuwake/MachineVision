@@ -37,6 +37,8 @@ cpp函数
 
 - [ ] cpp设计
   - [ ] halcon导出cpp
+  - [ ] 按照cpp函数收入输出格式修改
+  - [ ] 补充注释
   - [ ] 设计demo: cpp console,输入图片位置输出数字
   - 
 
