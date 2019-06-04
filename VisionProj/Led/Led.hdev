@@ -9,32 +9,16 @@
 <c></c>
 <c></c>
 <c>** 调用hdvp请先将当前目录添加到Procedures Directories</c>
-<l>led_auto_ocr (InputImage, SymbolNames_OCR_01_0, Confidences_OCR_01_0, Words_OCR_01_0, Scores_OCR_01_0)</l>
+<c>** auto_roi</c>
+<c></c>
+<l>gen_rectangle1 (ROI_OCR_01_0, 124.685, 302.511, 159.685, 407.511)</l>
+<c></c>
+<c>** auto_ocr</c>
+<l>led_auto_ocr (InputImage, ROI_OCR_01_0, SymbolNames_OCR_01_0, Confidences_OCR_01_0, Words_OCR_01_0, Scores_OCR_01_0)</l>
 <c></c>
 </body>
 <docu id="main">
 <parameters/>
-</docu>
-</procedure>
-<procedure name="AutoOcr">
-<interface>
-<io>
-<par name="InputImage" base_type="iconic" dimension="0"/>
-</io>
-<oc>
-<par name="Words_OCR_01_0" base_type="ctrl" dimension="0"/>
-<par name="Scores_OCR_01_0" base_type="ctrl" dimension="0"/>
-</oc>
-</interface>
-<body>
-<c></c>
-</body>
-<docu id="AutoOcr">
-<parameters>
-<parameter id="InputImage"/>
-<parameter id="Scores_OCR_01_0"/>
-<parameter id="Words_OCR_01_0"/>
-</parameters>
 </docu>
 </procedure>
 </hdevelop>

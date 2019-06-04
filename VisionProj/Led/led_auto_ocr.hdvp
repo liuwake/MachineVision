@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hdevelop file_version="1.2" halcon_version="18.11.1.1">
-<procedure name="LedAutoOcr">
+<procedure name="led_auto_ocr">
 <interface>
 <io>
 <par name="InputImage" base_type="iconic" dimension="0"/>
+<par name="ROI_OCR_01_0" base_type="iconic" dimension="0"/>
 </io>
 <oc>
 <par name="SymbolNames_OCR_01_0" base_type="ctrl" dimension="0"/>
@@ -44,7 +45,7 @@
 <c as_id="ocr" as_name="OCR 01" as_grp="[4,1]" as_ord="1">* OCR 01: </c>
 <c as_id="ocr" as_name="OCR 01" as_grp="[4,1]" as_ord="2">* OCR 01: Perform actual processing (once per ROI)</c>
 <c as_id="ocr" as_name="OCR 01" as_grp="[4,3]" as_ord="1">* OCR 01: Generate regions of interest</c>
-<l as_id="ocr" as_name="OCR 01" as_grp="[4,2]" as_ord="1">gen_rectangle1 (ROI_OCR_01_0, 124.685, 302.511, 159.685, 407.511)</l>
+<c></c>
 <c as_id="ocr" as_name="OCR 01" as_grp="[4,3]" as_ord="1">* OCR 01: </c>
 <c as_id="ocr" as_name="OCR 01" as_grp="[4,3]" as_ord="2">* OCR 01: Extract symbol regions (segmentation step)</c>
 <c as_id="ocr" as_name="OCR 01" as_grp="[4,3]" as_ord="3">* OCR 01: Only consider first channel for color images</c>
@@ -91,10 +92,11 @@
 <l>return ()</l>
 <l>return ()</l>
 </body>
-<docu id="LedAutoOcr">
+<docu id="led_auto_ocr">
 <parameters>
 <parameter id="Confidences_OCR_01_0"/>
 <parameter id="InputImage"/>
+<parameter id="ROI_OCR_01_0"/>
 <parameter id="Scores_OCR_01_0"/>
 <parameter id="SymbolNames_OCR_01_0"/>
 <parameter id="Words_OCR_01_0"/>
