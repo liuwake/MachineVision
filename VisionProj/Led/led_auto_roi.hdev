@@ -52,6 +52,25 @@
 <l>stop ()</l>
 <c></c>
 <c>** eg 1.2 根据圆和比例选取LED区域</c>
+<c>** 初始化设备尺度参数</c>
+<l>watch_r := Radius</l>
+<l>watch_x := Column</l>
+<l>watch_y := Row</l>
+<c></c>
+<l>led_width := 0.9 * watch_r</l>
+<l>led_height := 0.5 * watch_r</l>
+<c></c>
+<c></c>
+<l>led_x1 := watch_x - 0.7*led_width</l>
+<l>led_y1 := watch_y - led_height</l>
+<c></c>
+<l>led_x2 := Column + 0.7*led_width</l>
+<l>led_y2 := watch_y </l>
+<c>**</c>
+<c></c>
+<c></c>
+<l>gen_rectangle1(Rectangle, led_y1,led_x1, led_y2, led_x2 )</l>
+<c></c>
 <c></c>
 <c></c>
 <c></c>

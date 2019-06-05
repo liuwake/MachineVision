@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.2" halcon_version="18.11.1.1">
+<procedure name="led_autoLroi">
+<interface>
+<io>
+<par name="InputImage" base_type="iconic" dimension="0"/>
+</io>
+<oo>
+<par name="Rectangle" base_type="iconic" dimension="0"/>
+</oo>
+</interface>
+<body>
+<l>Image := InputImage</l>
+<l>decompose3 (Image, Red, Green, Blue)</l>
+<l>trans_from_rgb (Red, Green, Blue, Hue, Saturation, Intensity, 'hsv')</l>
+<c>*对饱和度图像进行二值化</c>
+<l>threshold (Saturation, HighSaturation, 100, 255)</l>
+<c>*在色调图像中抠图</c>
+<l>reduce_domain (Hue, HighSaturation, HueHighSaturation)</l>
+<l>threshold (HueHighSaturation, Yellow, 20, 50)</l>
+<l>connection (Yellow, ConnectedRegions)</l>
+<c>*根据形状选择，‘max_area’为选择面积最大的连通域</c>
+<l>select_shape_std (ConnectedRegions, SelectedRegions, 'max_area', 70)</l>
+<l>closing_circle (SelectedRegions, Yellow, 3.5)</l>
+<l>smallest_circle (SelectedRegions, Row, Column, Radius)</l>
+<l>gen_circle(Circles,Row,Column,Radius)</l>
+<c>** reduce_domain (Image, Yellow, ImageReduced)</c>
+<l>reduce_domain (Image, Circles, ImageReduced)</l>
+<l>dev_display (HueHighSaturation)</l>
+<l>dev_display (ImageReduced)</l>
+<l>stop ()</l>
+<c></c>
+<c>** eg 1.2 根据圆和比例选取LED区域</c>
+<c>** 初始化设备尺度参数</c>
+<l>watch_r := Radius</l>
+<l>watch_x := Column</l>
+<l>watch_y := Row</l>
+<c></c>
+<l>led_width := 0.9 * watch_r</l>
+<l>led_height := 0.5 * watch_r</l>
+<c></c>
+<c></c>
+<l>led_x1 := watch_x - 0.7*led_width</l>
+<l>led_y1 := watch_y - led_height</l>
+<c></c>
+<l>led_x2 := Column + 0.7*led_width</l>
+<l>led_y2 := watch_y </l>
+<c>**生成矩形</c>
+<c></c>
+<l>gen_rectangle1(Rectangle, led_y1,led_x1, led_y2, led_x2 )</l>
+<l>return ()</l>
+</body>
+<docu id="led_autoLroi">
+<parameters>
+<parameter id="InputImage"/>
+<parameter id="Rectangle"/>
+</parameters>
+</docu>
+</procedure>
+</hdevelop>

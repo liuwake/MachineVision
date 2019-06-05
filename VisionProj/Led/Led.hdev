@@ -3,7 +3,8 @@
 <procedure name="main">
 <interface/>
 <body>
-<c></c>
+<l>dev_close_window ()</l>
+<l>dev_open_window (0, 0, 640, 480, 'black', WindowHandle)</l>
 <c></c>
 <l>read_image (InputImage, 'C:/Users/iwake/OneDrive - wake/Desktop/Vision/VisionProj/Led/led1.jpg')</l>
 <c></c>
@@ -12,11 +13,12 @@
 <c></c>
 <c>** 调用hdvp请先将当前目录添加到Procedures Directories</c>
 <c>** auto_roi</c>
+<l>led_autoLroi (InputImage, Rectangle)</l>
 <c></c>
-<l>gen_rectangle1 (ROI_OCR_01_0, 124.685, 302.511, 159.685, 407.511)</l>
+<l>* gen_rectangle1 (Rectangle, 124.685, 302.511, 159.685, 407.511)</l>
 <c></c>
 <c>** auto_ocr</c>
-<l>led_auto_ocr (InputImage, ROI_OCR_01_0, SymbolNames_OCR_01_0, Confidences_OCR_01_0, Words_OCR_01_0, Scores_OCR_01_0)</l>
+<l>led_auto_ocr (InputImage, Rectangle, SymbolNames_OCR_01_0, Confidences_OCR_01_0, Words_OCR_01_0, Scores_OCR_01_0)</l>
 <c></c>
 </body>
 <docu id="main">
