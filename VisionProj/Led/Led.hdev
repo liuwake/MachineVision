@@ -14,7 +14,7 @@
 <c></c>
 <c></c>
 <c>** auto_roi</c>
-<l>led_autoLroi (InputImage, Rectangle)</l>
+<l>led_auto_roi (InputImage, Rectangle)</l>
 <l>* gen_rectangle1 (Rectangle, 124.685, 302.511, 159.685, 407.511)</l>
 <c></c>
 <c></c>
