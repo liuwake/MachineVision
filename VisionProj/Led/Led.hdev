@@ -21,6 +21,7 @@
 <c>** auto_ocr</c>
 <l>led_auto_ocr (InputImage, Rectangle, SymbolNames_OCR_01_0, Confidences_OCR_01_0, Words_OCR_01_0, Scores_OCR_01_0)</l>
 <c></c>
+<c></c>
 </body>
 <docu id="main">
 <parameters/>
