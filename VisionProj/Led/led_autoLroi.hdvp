@@ -28,7 +28,7 @@
 <l>reduce_domain (Image, Circles, ImageReduced)</l>
 <l>dev_display (HueHighSaturation)</l>
 <l>dev_display (ImageReduced)</l>
-<l>stop ()</l>
+<l>* stop ()</l>
 <c></c>
 <c>** eg 1.2 根据圆和比例选取LED区域</c>
 <c>** 初始化设备尺度参数</c>
