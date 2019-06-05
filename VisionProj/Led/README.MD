@@ -40,6 +40,7 @@ cpp函数
           6. 赋值给ROI
   2. AutoOcr
     - [X] 1. PLAN: OCR助手
+      - 注意兼容4位数码管情况
       - [ ] ...
 - [ ] 测试验证
   - [ ] 加噪add_noise
