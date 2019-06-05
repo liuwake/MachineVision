@@ -66,8 +66,7 @@
 <c></c>
 <l>led_x2 := Column + 0.7*led_width</l>
 <l>led_y2 := watch_y </l>
-<c>**</c>
-<c></c>
+<c>**生成矩形</c>
 <c></c>
 <l>gen_rectangle1(Rectangle, led_y1,led_x1, led_y2, led_x2 )</l>
 <c></c>
