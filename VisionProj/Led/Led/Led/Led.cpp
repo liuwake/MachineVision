@@ -251,7 +251,7 @@ void led_autoLroi(HObject ho_InputImage, HObject* ho_Rectangle)
 
 #ifndef NO_EXPORT_MAIN
 // Main procedure 
-void action()
+string action()
 {
 
 	// Local iconic variables
@@ -285,11 +285,9 @@ void action()
 	//std::cout << hv_Words_OCR_01_0;
 
 	string str = (string)hv_Words_OCR_01_0[0].S();
-	std::cout << str;
-
-
-	
-
+	//Htuple ×ª string	
+	return str;
+	//·µ»Østring
 }
 
 
@@ -440,6 +438,6 @@ static int apple_main(int argc, char* argv[])
 int main()
 {
     std::cout << "led:\n";
-	action();
-	std::cout << "\n";
+	string str = action();
+	std::cout << str;
 }
