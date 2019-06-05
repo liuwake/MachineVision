@@ -3,7 +3,7 @@
 ### 1. Abstract 摘要
 处理自然光普通彩色图片,识别[数字电接点压力表](https://baike.baidu.com/item/%E6%95%B0%E6%98%BE%E7%94%B5%E6%8E%A5%E7%82%B9%E5%8E%8B%E5%8A%9B%E8%A1%A8)(HC-Y810)上的红色[LED数码管](https://baike.baidu.com/item/LED%E6%95%B0%E7%A0%81%E7%AE%A1)数值.
 ### 2. Function 函数说明
-C++函数
+C++ 
 - Input输入: string, 图片位置
 - Output输出: string, 识别字符
 - Dependence依赖: Halcon runtime X64
@@ -66,7 +66,7 @@ C++函数
   - [x] 按照cpp函数收入输出格式修改
   - [x] 补充注释
   - [x] 设计demo: cpp console,输入图片位置输出数字
-  - 
+  - [ ] 增加catch异常和返回0000
 
 ### BUG
 - 无法编译
