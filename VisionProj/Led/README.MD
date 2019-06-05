@@ -1,23 +1,25 @@
 ## Project: Led
 
-### Abstract 摘要
+### 1. Abstract 摘要
 处理自然光普通彩色图片,识别[数字电接点压力表](https://baike.baidu.com/item/%E6%95%B0%E6%98%BE%E7%94%B5%E6%8E%A5%E7%82%B9%E5%8E%8B%E5%8A%9B%E8%A1%A8)(HC-Y810)上的红色[LED数码管](https://baike.baidu.com/item/LED%E6%95%B0%E7%A0%81%E7%AE%A1)数值.
-### Function 函数说明
-cpp函数
+### 2. Function 函数说明
+C++函数
 - Input输入: string, 图片位置
 - Output输出: string, 识别字符
-依赖:无
+- Dependence依赖: Halcon runtime X64
 
-### 设计计划
+### 3. 设计计划
 - [x] 主函数流程
 
   0. [ ] Pre 预处理
+       ``` 
      1. [ ] 去噪增强
      2. [ ] 仿射变换到正视角
         1. [ ] ???用后边栅栏参考
         2. [ ] ???用黄色圆的椭圆计算参考
+      ```
   1. [x] AutoRoi
-       
+      ```
        1.  [x] PLAN 选取黄色: 区域够大,容易选取,OK
            1. 选出黄色
            2. 膨胀腐蚀,连通区域
@@ -38,10 +40,13 @@ cpp函数
           4. 找最小外接矩形
           5. 转xld
           6. 赋值给ROI
-  2. AutoOcr
+      ```
+  1. AutoOcr
+    ```
     - [X] 1. PLAN: OCR助手
       - 注意兼容4位数码管情况
       - [ ] ...
+    ```
 - [ ] 测试验证
   - [ ] 加噪add_noise
   - [ ] 扭曲变形
@@ -49,12 +54,6 @@ cpp函数
   - [ ] 其他情况
   - 
 
-- [ ] 参考
-  - [ ] ihalcon例子
-  - [ ] 网络上相关Led数字显示图片及实施方法
-
-- [ ] 算法细节
-  - [ ] ddd
 
 - [ ] cpp设计
   - [x] halcon导出cpp
