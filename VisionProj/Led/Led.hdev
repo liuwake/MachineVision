@@ -8,6 +8,8 @@
 <l>read_image (InputImage, 'C:/Users/iwake/OneDrive - wake/Desktop/Vision/VisionProj/Led/led1.jpg')</l>
 <c></c>
 <c></c>
+<c></c>
+<c></c>
 <c>** 调用hdvp请先将当前目录添加到Procedures Directories</c>
 <c>** auto_roi</c>
 <c></c>
