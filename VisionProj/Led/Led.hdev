@@ -7,8 +7,8 @@
 <c>**注意:</c>
 <c>** 调用hdvp请先将当前目录添加到Procedures Directories</c>
 <c></c>
-<l>dev_close_window ()</l>
-<l>dev_open_window (0, 0, 640, 480, 'black', WindowHandle)</l>
+<l>* dev_close_window ()</l>
+<l>* dev_open_window (0, 0, 640, 480, 'black', WindowHandle)</l>
 <l>Image_path := 'C:/Users/iwake/OneDrive - wake/Desktop/Vision/VisionProj/Led/led1.jpg'</l>
 <l>read_image (InputImage, Image_path)</l>
 <c></c>
