@@ -4,12 +4,12 @@
 处理自然光普通彩色图片,识别[数字电接点压力表](https://baike.baidu.com/item/%E6%95%B0%E6%98%BE%E7%94%B5%E6%8E%A5%E7%82%B9%E5%8E%8B%E5%8A%9B%E8%A1%A8)(HC-Y810)上的红色[LED数码管](https://baike.baidu.com/item/LED%E6%95%B0%E7%A0%81%E7%AE%A1)数值.
 ### Function 函数说明
 cpp函数
-- Input输入: cstring, 图片位置
-- Output输出: cstring, 识别字符
+- Input输入: string, 图片位置
+- Output输出: string, 识别字符
 依赖:无
 
 ### 设计计划
-- [ ] 主函数流程
+- [x] 主函数流程
 
   0. [ ] Pre 预处理
      1. [ ] 去噪增强
@@ -60,10 +60,10 @@ cpp函数
   - [x] halcon导出cpp
   - [ ] 按照cpp函数收入输出格式修改
   - [x] 补充注释
-  - [ ] 设计demo: cpp console,输入图片位置输出数字
+  - [x] 设计demo: cpp console,输入图片位置输出数字
   - 
 
 ### 
 
 - [ ] TODO: cpp 注释风格,函数头风格;
-- [ ] TODO: halcon函数头风格,统一
+- [x] TODO: halcon函数头风格,统一
