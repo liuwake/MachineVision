@@ -1,15 +1,14 @@
-// HalSubFunc.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-#include "Hal.h"
-#include "HalconCpp.h" 
-
+//Halcon库
+#include "HalconCpp.h"
 using namespace HalconCpp;
+
+//公共库
 using namespace std;
-
 #include <string>
-
 #include <iostream>
 
+//自写函数头
+#include "Hal.h"
 
 int main()
 {
