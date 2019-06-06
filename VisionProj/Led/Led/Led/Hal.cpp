@@ -1,10 +1,34 @@
+/*************************************************
+Copyright: HRG
+Author: LiuWake
+Date:06/04/19
+Description: 输入图像位置,返回OCR结果
+**************************************************/
+
+
+/*************************************************
+Function:       识别图像上的Led数码管数字
+Description:    输入图像位置,返回OCR结果
+Calls:          // Null
+Table Accessed: // Null
+Table Updated: // Null
+Input:          string 输入文件位置,如"C:/Led/led1.jpg";
+				需要是绝对位置,相对位置可能出错;注意斜杠反斜杠;
+Output:        string 输出识别结果,eg 840
+Return:        string 输出识别结果,eg 840
+Others:         null
+*************************************************/
+
+//Halcon库
 #include "HalconCpp.h"
 using namespace HalconCpp;
 
+//公共库
 using namespace std;
 #include <string>
-
 #include <iostream>
+
+//自写函数头
 #include "Hal.h"
 
 
