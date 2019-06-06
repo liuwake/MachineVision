@@ -157,7 +157,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Hal.cpp" />
     <ClCompile Include="Led.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

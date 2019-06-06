@@ -1,5 +1,5 @@
 /************************************************* 
-Copyright: Wake 
+Copyright: HRG 
 Author: LiuWake
 Date:06/04/19 
 Description: input a image's directory and get the ocr result 
