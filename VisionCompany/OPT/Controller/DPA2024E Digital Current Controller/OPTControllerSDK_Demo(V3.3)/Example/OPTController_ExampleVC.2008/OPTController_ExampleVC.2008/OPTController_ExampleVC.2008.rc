@@ -1,0 +1,264 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\OPTController_ExampleVC2008.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\OPTController_ExampleVC.2008.ico"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About OPTController_ExampleVC.2008"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "OPTController_ExampleVC.2008, Version 1.0.5",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2014",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_OPTCONTROLLER_EXAMPLEVC2008_DIALOG DIALOGEX 0, 0, 280, 335
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SCIController_ExampleVC.2008"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_COMName,83,28,71,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "SerialPort Name:",IDC_STATIC,27,31,54,8
+    LTEXT           "(e.g.,""COM1"")",IDC_STATIC,163,30,47,8
+    EDITTEXT        IDC_EDIT_HID,65,58,77,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "HID IDs:",IDC_STATIC,27,61,28,8
+    LTEXT           "(e.g.,""1155,22352"")",IDC_STATIC,151,61,66,8
+    GROUPBOX        "Communication Model",IDC_STATIC,7,5,266,94
+    PUSHBUTTON      "Connect",IDC_BUTTON_Connection,15,77,63,14
+    LTEXT           "Channel Index",IDC_STATIC,27,117,47,8
+    EDITTEXT        IDC_EDIT_ChannelIndex,81,115,63,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "(Range:[0-16])",IDC_STATIC,149,118,50,8
+    PUSHBUTTON      "Turn On Channel",IDC_BUTTON_OpenChannel,11,133,63,14
+    PUSHBUTTON      "Turn Off Channel",IDC_BUTTON_CloseChannel,81,133,63,14
+    PUSHBUTTON      "Set Intensity",IDC_BUTTON_SetIntensity,11,152,63,14
+    EDITTEXT        IDC_EDIT_Intensity,81,151,63,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "(Range:[0-255])",IDC_STATIC,149,153,54,8
+    LTEXT           "status:",IDC_STATIC,14,310,24,8
+    EDITTEXT        IDC_EDIT_Status,42,307,231,14,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Controller Operations",IDC_STATIC,7,106,266,70
+    CONTROL         "SerialPort Communication",IDC_RADIO_SerialPort,"Button",BS_AUTORADIOBUTTON,16,16,97,10
+    CONTROL         "HID Communication",IDC_RADIO_IP,"Button",BS_AUTORADIOBUTTON,16,47,78,10
+    GROUPBOX        "SEQ Operation",IDC_STATIC,7,180,253,119
+    CONTROL         "GeneralTrigger",IDC_RADIO_GeneralTrig,"Button",BS_AUTORADIOBUTTON | WS_GROUP,26,202,69,10
+    CONTROL         "ProgrammableTrigger",IDC_RADIO_ProgrammablTrig,"Button",BS_AUTORADIOBUTTON,26,218,82,10
+    GROUPBOX        "SetTriggerMode",IDC_STATIC_TRIGGERMODE,17,192,229,40
+    PUSHBUTTON      "SetTriggerMode",IDC_BUTTON_TRIGGERMODE,145,212,81,14
+    LTEXT           "ModuleIndex",IDC_STATIC_Channel,19,238,52,8
+    EDITTEXT        IDC_EDIT_ChannelIndex2,81,236,63,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "(Range:[1-4])",IDC_STATIC,149,238,46,8
+    PUSHBUTTON      "SetSeqTable",IDC_BUTTON_SETSEQTABLE,18,257,81,14
+    PUSHBUTTON      "ReadSeqTable",IDC_BUTTON_READSEQTABLE,146,257,81,14
+    COMBOBOX        IDC_COMBO1,18,279,82,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "SetCurrentStep",IDC_BUTTON_SETCURSTEP,146,278,81,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,11,0
+ PRODUCTVERSION 1,0,11,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "OPT MACHINE VISION TECH CO.,LTD"
+            VALUE "FileDescription", "Application Program"
+            VALUE "FileVersion", "1.0.11"
+            VALUE "InternalName", "OPTController_ExampleVC.2008.exe"
+            VALUE "LegalCopyright", "Copyright (C), 2005 OPT MACHINE VISION TECH CO.,LTD. All rights reserved."
+            VALUE "OriginalFilename", "OPTController_ExampleVC.2008.exe"
+            VALUE "ProductName", "OPTController_ExampleVC"
+            VALUE "ProductVersion", "1.0.11"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_OPTCONTROLLER_EXAMPLEVC2008_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 328
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_OPTCONTROLLER_EXAMPLEVC2008_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO1, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO1, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO1, 0x403, 2, 0
+0x0034, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About OPTController_ExampleVC.2008..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\OPTController_ExampleVC2008.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
