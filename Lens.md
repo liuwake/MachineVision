@@ -9,3 +9,9 @@
 ## 参数
 
 ### 成像范围
+
+### Term
+
+#### Flange focal distance 法兰距离
+- [Wiki: Flange focal distance](https://en.wikipedia.org/wiki/Flange_focal_distance)
+- [百度百科: 法兰距](https://baike.baidu.com/item/%E6%B3%95%E5%85%B0%E8%B7%9D) 表格里画幅不准确,1'',2/3''等都有
