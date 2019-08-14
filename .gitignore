@@ -1,3 +1,9 @@
+# too big
+
+*.exe
+
+
+
 # Mac OS
 .DS_Store
 *.app
