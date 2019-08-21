@@ -1,6 +1,7 @@
-# too big
 
-*.exe
+
+# too big
+\-*
 
 
 
