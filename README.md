@@ -21,7 +21,7 @@
 ## VisionPlatform
 
 - [51Halcon](https://www.51halcon.com)
-  - [鸟叔zazaniao](https://www.51halcon.com/home.php?mod=space&uid=2) 
+  - [鸟叔zazaniao](https://www.51halcon.com/?2) 
 - [iHalcon](http://www.ihalcon.com/)
 - [鸟叔视觉培训](https://www.szvbt.com/)
   - [优酷](https://i.youku.com/i/UMzc2MTExODk2NA)

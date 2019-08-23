@@ -4,9 +4,12 @@
 
 ### [Area Scan](http://www.daheng-imaging.com/en/products/ProductList.aspx?current=123)
 
-#### [MER-G Series](http://www.daheng-imaging.com/en/products/ProductDetails.aspx?current=123&productid=2865)
+#### [MER-G Series](http://www.daheng-imaging.com/en/products/ProductDetails.aspx?current=123&productid=2865)(CCD,无POE)
+- [MER-630-16GM/C](http://www.daheng-imaging.com/en/products/ProductDetails.aspx?current=123&productid=2955)
+- 
+#### [MER-G-P Series](http://www.daheng-imaging.com/en/products/ProductDetails.aspx?current=123&productid=2883)(CMOS,POE)
+- [MER-630-16GM/C-P](http://www.daheng-imaging.com/en/products/ProductDetails.aspx?current=123&productid=2960)
 
-#### [MER-G-P Series](http://www.daheng-imaging.com/en/products/ProductDetails.aspx?current=123&productid=2883)
 
 #### [MARS-G-P Series](http://www.daheng-imaging.com/en/products/ProductDetails.aspx?current=123&productid=3213)
 
