@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+	<script src="https://www.opto-e.cn/assets/newJs/jquery-2.1.4.min.js"></script>
+	<script src="https://www.opto-e.cn/assets/newJs/onlyhome.js?v=220857"/></script>
+    
+<meta charset="utf-8">	
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+<title>机器视觉的光学成像技术 </title>
+<meta name="description" content="Opto工程设计，制造和销售成像组件，以解决每一个机器视觉应用。Opto Engineering THE TELECENTRIC COMPANY历经多年发展而推出数百种新颖多样的产品，其业务范围涵盖多个专业领域。如今，我们可以说是光学成像技术领域的佼佼者。.">
+<link rel="shortcut icon" href="https://www.opto-e.cn/favicon.ico" type="image/x-icon" />
+
+<meta property="og:title" content="机器视觉的光学成像技术 " />
+<meta property="og:description" content="Opto工程设计，制造和销售成像组件，以解决每一个机器视觉应用。Opto Engineering THE TELECENTRIC COMPANY历经多年发展而推出数百种新颖多样的产品，其业务范围涵盖多个专业领域。如今，我们可以说是光学成像技术领域的佼佼者。." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://www.opto-e.cn/media/downloads/schematics/dp23972-b.dxf"/>
+<meta property="og:image" content="https://www.opto-e.cn/media/icon/OE_logo_black.png"/>
+<meta property="og:site_name" content="https://www.opto-e.cn/" />
+
+
+
+<meta http-equiv="Content-Language" content="cn-CN">
+
+
+			<link rel="alternate" hreflang="en" href="https://www.opto-engineering.com/" />
+			<link rel="alternate" hreflang="it" href="https://www.opto-engineering.it/" />
+			<link rel="alternate" hreflang="de" href="https://www.opto-e.de/" />
+			<link rel="alternate" hreflang="es" href="https://www.opto-engineering.es/" />
+			<link rel="alternate" hreflang="fr" href="https://www.opto-engineering.fr/" />
+			<link rel="alternate" hreflang="ja-jp" href="https://www.opto-engineering.jp/" />
+			<link rel="alternate" hreflang="zh-cn" href="http://www.opto-e.cn/" />
+			<link rel="alternate" hreflang="ko-kr" href="https://www.opto-engineering.kr/" />
+			<link rel="alternate" hreflang="zh-tw" href="https://www.opto-e.tw/" />
+			<link rel="alternate" hreflang="ru" href="https://www.opto-engineering.ru/" />
+	
+
+
+<!-- analytics baidu china -->
+	<script type="text/javascript">
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "//hm.baidu.com/hm.js?17304ca675da6f53531e802ea6e30aa9";
+	  var s = document.getElementsByTagName("script")[0];
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-53807-67"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-53807-67');
+</script>
+
+	
+	<link href="https://www.opto-e.cn/assets/newCss/newhome.css" rel="stylesheet" media="all" type="text/css" />
+<link href="https://www.opto-e.cn/assets/newCss/800.css" rel="stylesheet" media="all" type="text/css" />
+<link href="https://www.opto-e.cn/assets/newCss/1200.css" rel="stylesheet" media="all" type="text/css" />
+<link href="https://www.opto-e.cn/assets/newCss/base.css" rel="stylesheet" media="all" type="text/css" />
+	<link href="https://www.opto-e.cn/assets/chosen_v1.8.7/chosen.css" rel="stylesheet" media="all" type="text/css" />
+	<link href="https://www.opto-e.cn/assets/magnific-popup/magnific-popup.css" rel="stylesheet" media="all" type="text/css" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+	
+    	<script type="application/ld+json">
+	{ 
+		"@context" : "http://schema.org",
+			"@type" : "Organization",
+			"name" : "Opto Engineering",
+			"logo": "http://www.opto-engineering.com/assets/img/logo_opto_v3.png"
+			"url" : "http://www.opto-engineering.com",
+			"sameAs" : [ "https://www.facebook.com/thetelecentriccompany",
+			"https://twitter.com/OptoEngineering",
+			"https://plus.google.com/108985436687242590058/posts"] 
+	}
+	</script>    	
+</head>
+
+<body class="homeblack">
+	
+<div id="menuMobile" class="">
+		<ul class="navigation">
+<p class='boxLateral latHome'><a href="https://www.opto-e.cn/" title="Homepage Opto-Engineering"><span class="span_icon home_icon_w"></span> Home</a><span class="close">x</span></p>
+				
+				<p class="boxLateral blu_opto">
+				<span class="span_icon blu_opto "></span>
+				光学				<span class="span_arrow icon-caret"></span></p>
+				<li class="boxLateral titoletto blu_opto"><a href="https://www.opto-e.cn/制品/光学" title="光学">光学</a> ></li>		
+						
+						<li class="boxLateral blu_opto"><a href="https://www.opto-e.cn/products/telecentric-family" title="远心镜头">远心镜头</a></li>		
+						
+						<li class="boxLateral blu_opto"><a href="https://www.opto-e.cn/products/360-optics-family" title="360° 光学成像">360° 光学成像</a></li>		
+						
+						<li class="boxLateral blu_opto"><a href="https://www.opto-e.cn/products/macro-family" title="微距镜头">微距镜头</a></li>		
+						
+						<li class="boxLateral blu_opto"><a href="https://www.opto-e.cn/products/fixed-focal" title="定焦镜头">定焦镜头</a></li>		
+						
+						<li class="boxLateral blu_opto"><a href="https://www.opto-e.cn/products/infrared-lenses-family" title="红外光学器件">红外光学器件</a></li>		
+						
+						<li class="boxLateral blu_opto"><a href="https://www.opto-e.cn/products/adaptive_optics" title="自适应光学器件">自适应光学器件</a></li>				
+				<p class="boxLateral verde_opto">
+				<span class="span_icon verde_opto "></span>
+				光源				<span class="span_arrow icon-caret"></span></p>
+				<li class="boxLateral titoletto verde_opto"><a href="https://www.opto-e.cn/products/lighting" title="光源">光源</a> ></li>		
+						
+						<li class="boxLateral verde_opto"><a href="https://www.opto-e.cn/products/LT-illuminators-family" title="LED光源">LED光源</a></li>		
+						
+						<li class="boxLateral verde_opto"><a href="https://www.opto-e.cn/products/LED-pattern-projectors-family" title="LED图案投影仪">LED图案投影仪</a></li>		
+						
+						<li class="boxLateral verde_opto"><a href="https://www.opto-e.cn/products/lighting-kits" title="<div>照明套件</div>
+<div> </div>"><div>照明套件</div>
+<div> </div></a></li>		
+						
+						<li class="boxLateral verde_opto"><a href="https://www.opto-e.cn/custom-lights" title="定制光源">定制光源</a></li>				
+				<p class="boxLateral cyan_opto">
+				<span class="span_icon cyan_opto "></span>
+				相机				<span class="span_arrow icon-caret"></span></p>
+				<li class="boxLateral titoletto cyan_opto"><a href="https://www.opto-e.cn/products/cameras" title="相机">相机</a> ></li>		
+						
+						<li class="boxLateral cyan_opto"><a href="https://www.opto-e.cn/products/area-scan-cameras-family" title="面扫描相机">面扫描相机</a></li>		
+						
+						<li class="boxLateral cyan_opto"><a href="https://www.opto-e.cn/products/high-resolution-area-scan-cameras" title="<div>HR 面 扫描相机</div>"><div>HR 面 扫描相机</div></a></li>		
+						
+						<li class="boxLateral cyan_opto"><a href="https://www.opto-e.cn/products/high-resolution-line-scan-cameras" title="HR 线 扫描相机">HR 线 扫描相机</a></li>				
+				<p class="boxLateral giallo_opto">
+				<span class="span_icon giallo_opto "></span>
+				配件				<span class="span_arrow icon-caret"></span></p>
+				<li class="boxLateral titoletto giallo_opto"><a href="https://www.opto-e.cn/产品/配件家庭" title="配件">配件</a> ></li>		
+						
+						<li class="boxLateral giallo_opto"><a href="https://www.opto-e.cn/products/mounting-mechanics-family" title="安装机构">安装机构</a></li>		
+						
+						<li class="boxLateral giallo_opto"><a href="https://www.opto-e.cn/products/accessories-for-lens" title="镜头附件">镜头附件</a></li>		
+						
+						<li class="boxLateral giallo_opto"><a href="https://www.opto-e.cn/products/calibration-patterns-family" title="标定板">标定板</a></li>		
+						
+						<li class="boxLateral giallo_opto"><a href="https://www.opto-e.cn/products/controllers-power-supplies-family" title="控制器和电源">控制器和电源</a></li>		
+						
+						<li class="boxLateral giallo_opto"><a href="https://www.opto-e.cn/products/cables-electronics-family" title="电缆和电子元件">电缆和电子元件</a></li>		
+						
+						<li class="boxLateral giallo_opto"><a href="https://www.opto-e.cn/products/spare-partes-family" title="备件">备件</a></li>		
+						
+						<li class="boxLateral giallo_opto"><a href="https://www.opto-e.cn/Software" title="软件">软件</a></li>				
+				<p class="boxLateral lime_opto">
+				<span class="span_icon lime_opto "></span>
+				软件				<span class="span_arrow icon-caret"></span></p>
+				<li class="boxLateral titoletto lime_opto"><a href="https://www.opto-e.cn/products/software" title="软件">软件</a> ></li>		
+						
+						<li class="boxLateral lime_opto"><a href="https://www.opto-e.cn/制品/机器视觉软件与程序库" title="FABIMAGE">FABIMAGE</a></li>		
+						
+						<li class="boxLateral lime_opto"><a href="https://www.opto-e.cn/software-library-and-stand-alone-tools-for-the-optimization-of-telecentric-setups" title="TCLIB Suite">TCLIB Suite</a></li>		
+						
+						<li class="boxLateral lime_opto"><a href="https://www.opto-e.cn/software-library-and-stand-alone-tools-for-the-optimization-of-360-optics-setups" title="360LIB Suite">360LIB Suite</a></li>				
+				<p class="boxLateral pink_opto">
+				<span class="span_icon pink_opto "></span>
+				AI 视觉单元				<span class="span_arrow icon-caret"></span></p>
+				<li class="boxLateral titoletto pink_opto"><a href="https://www.opto-e.cn/products/vision-systems" title="AI 视觉单元">AI 视觉单元</a> ></li>		
+						
+						<li class="boxLateral pink_opto"><a href="https://www.opto-e.cn/基于人工智能的自学习视觉系统" title="ALBERT">ALBERT</a></li>		
+						
+						<li class="boxLateral pink_opto"><a href="https://www.opto-e.cn/制品/penso-基于人工智能的视觉装置" title="PENSO<sup>&reg;</sup>">PENSO<sup>&reg;</sup></a></li>		
+						
+						<li class="boxLateral pink_opto"><a href="https://www.opto-e.cn/" title="PENSO<sup>&reg;</sup> KIT case">PENSO<sup>&reg;</sup> KIT case</a></li>				
+				<p class="boxLateral latCompany">
+				<span class="span_icon sede_icon "></span>
+				公司				<span class="span_arrow icon-caret"></span></p>
+						
+						
+						<li class="boxLateral latCompany"><a href="https://www.opto-e.cn/company-profile" title="公司">公司</a></li>		
+						
+						<li class="boxLateral latCompany"><a href="https://www.opto-e.cn/customer-service" title="服务">服务</a></li>		
+						
+						<li class="boxLateral latCompany"><a href="https://www.opto-e.cn/resources/resource-list" title="资源">资源</a></li>		
+						
+						<li class="boxLateral latCompany"><a href="https://www.opto-e.cn/basics" title="基本用途">基本用途</a></li>		
+						
+						<li class="boxLateral latCompany"><a href="https://www.opto-e.cn/resources/faqs" title="F.A.Q.">F.A.Q.</a></li>		
+						
+						<li class="boxLateral latCompany"><a href="https://www.opto-e.cn/customer-support" title="客户支持">客户支持</a></li>		
+						
+						<li class="boxLateral latCompany"><a href="https://www.opto-e.cn/jobs" title="职业生涯">职业生涯</a></li>		
+						
+						<li class="boxLateral latCompany"><a href="https://www.opto-e.cn/opto-press-review" title="Press Review">Press Review</a></li>		
+						
+						<li class="boxLateral latCompany"><a href="https://www.opto-e.cn/contacts-opto" title="联系我们">联系我们</a></li>				
+				<p class="boxLateral latResources">
+				<span class="span_icon resou_icon "></span>
+				资源				<span class="span_arrow icon-caret"></span></p>
+						
+						
+						<li class="boxLateral latResources"><a href="https://www.opto-e.cn/resources/2d-3d-models" title="2D/3D 模型">2D/3D 模型</a></li>		
+						
+						<li class="boxLateral latResources"><a href="https://www.opto-e.cn/resources/image-gallery" title="图像库">图像库</a></li>		
+						
+						<li class="boxLateral latResources"><a href="https://www.opto-e.cn/resources/video-gallery" title="视频库">视频库</a></li>		
+						
+						<li class="boxLateral latResources"><a href="https://www.opto-e.cn/search-by-applications" title="应用实例">应用实例</a></li>		
+						
+						<li class="boxLateral latResources"><a href="https://www.opto-e.cn/robotics-application-note" title="应用说明">应用说明</a></li>
+<li class="boxLateral latResources" >
+		<span class="icon-file-pdf"></span>
+		<a href="https://www.opto-e.cn/media/downloads/docs/Catalog_CN_2019_low.pdf" title="Download Catalog">Catalog 2019</a></li>
+<li class="boxLateral latResources" >
+		<span class="icon-file-pdf"></span>
+		<a href="https://www.opto-e.cn/media/downloads/docs/Addendum_Catalog_2018_CN_low.pdf" title="Download Addendum">Addendum 2018</a></li>
+<li class="boxLateral latResources" >
+		<span class="icon-file-pdf"></span>
+		<a href="https://www.opto-e.cn/media/downloads/docs/.pdf" title="Lighting Catalogue">Lighting Catalogue</a></li>
+
+<p class="boxLateral roadshow" >
+		<a href="https://www.myoepage.com/roadshow/events" title="EXE Roadshow">EXE Roadshow</a></p>	
+		</ul>
+</div>
+
+	    <div class="page homePad" id="index" >
+		<div class="testatamobile" title="Home - Opto Engineering &reg;">
+		</div>
+        <div class="topBar homemargin">
+			
+<style type="text/css">
+	.chosen-results li{color: #333 !important;}
+	.chosen-results li:hover{background: #E6E6E6 !important;}
+	.highlighted{background: #E6E6E6 !important;}
+</style>
+
+<div class="hamburger" title="Home - Opto Engineering &reg;" alt="Opto Engineering &reg; - Optical Imaging Technologies">
+	
+</div>
+
+<div class="searchBox">
+		<select name="pnslist" id="pnslist" class="js-example-responsive form-control"><option></option></select>
+</div>
+
+<div class="cartBox">
+        </div>
+<div class="Lang">    
+        		
+        <p class="textLang">cn</p>
+        <ul id="Lang" class="language_dropdown" style="display: none;">
+		
+		<li class="en"><a href="https://www.opto-engineering.com/" title="English">English</a></li><li class="de"><a href="https://www.opto-e.de/" title="Deutsch">Deutsch</a></li><li class="it"><a href="https://www.opto-engineering.it/" title="Italiano">Italiano</a></li><li class="fr"><a href="https://www.opto-engineering.fr/" title="Français">Français</a></li><li class="es"><a href="https://www.opto-engineering.es/" title="Español">Español</a></li><li class="zh"><a href="https://www.opto-e.tw/" title="中文 (繁體)">中文 (繁體)</a></li><li class="kr"><a href="https://www.opto-engineering.kr/" title="한국어">한국어</a></li><li class="jp"><a href="https://www.opto-engineering.jp/" title="日本語">日本語</a></li><li class="ru"><a href="https://www.opto-engineering.ru/" title="Pусский">Pусский</a></li>			
+        </ul>
+</div>
+
+			
+		</div>
+
+		<nav id="site-canvas">
+			
+			
+<!--?php uuu($build_menu['company']); ?-->
+
+<div class="secondLevel" >
+	<div id="compContainer" class="flexxo">
+				
+			<div class="box company">     
+				<a href="https://www.opto-e.cn/company-profile" target="_self" title="光学成像技术" >
+					<span class="span_icon sede_icon"></span>
+					<span class="pageTitle">公司</span>
+				</a>
+			</div>
+			
+			<div class="box company">     
+				<a href="https://www.opto-e.cn/customer-service" target="_self" title="超越产品" >
+					<span class="span_icon service_icon"></span>
+					<span class="pageTitle">服务</span>
+				</a>
+			</div>
+			
+			<div class="box company">     
+				<a href="https://www.opto-e.cn/resources/resource-list" target="_self" title="资源" >
+					<span class="span_icon resou_icon"></span>
+					<span class="pageTitle">资源</span>
+				</a>
+			</div>
+			
+			<div class="box company">     
+				<a href="https://www.opto-e.cn/basics" target="_self" title="基本用途" >
+					<span class="span_icon basics_icon"></span>
+					<span class="pageTitle">基本用途</span>
+				</a>
+			</div>
+			
+			<div class="box company">     
+				<a href="https://www.opto-e.cn/resources/faqs" target="_self" title="常见问题" >
+					<span class="span_icon faq_icon"></span>
+					<span class="pageTitle">F.A.Q.</span>
+				</a>
+			</div>
+			
+			<div class="box company">     
+				<a href="https://www.opto-e.cn/customer-support" target="_self" title="客户支持" >
+					<span class="span_icon support_icon"></span>
+					<span class="pageTitle">支持</span>
+				</a>
+			</div>
+			
+			<div class="box company">     
+				<a href="https://www.opto-e.cn/jobs" target="_self" title="Opto Engineering 招聘职位" >
+					<span class="span_icon job_icon"></span>
+					<span class="pageTitle">职业生涯</span>
+				</a>
+			</div>
+			
+			<div class="box company">     
+				<a href="https://www.opto-e.cn/contacts-opto" target="_self" title="联系我们" >
+					<span class="span_icon contact_icon"></span>
+					<span class="pageTitle">联系我们</span>
+				</a>
+			</div>
+			<div class="box company roadshow">     
+				<a href="https://www.myoepage.com/roadshow/events" target="_self" title="Roadshow" >					
+					<img src="https://www.opto-e.cn//assets/img/EXE_logo_web.png" alt="" height="40" /><br>
+				</a>
+			</div>
+
+	</div>
+</div>
+
+<div class="firstLevel">
+    
+    <div class="catMenu blu_opto">
+        <a href="https://www.opto-e.cn/制品/光学" target="_self" title="光学" >
+        <span class="span_icon blu_opto"></span>
+        <span class="catTitle">光学</span>
+        </a>
+    </div>
+    
+    <div class="catMenu verde_opto">
+        <a href="https://www.opto-e.cn/products/lighting" target="_self" title="光源" >
+        <span class="span_icon verde_opto"></span>
+        <span class="catTitle">光源</span>
+        </a>
+    </div>
+    
+    <div class="catMenu cyan_opto">
+        <a href="https://www.opto-e.cn/products/cameras" target="_self" title="相机" >
+        <span class="span_icon cyan_opto"></span>
+        <span class="catTitle">相机</span>
+        </a>
+    </div>
+    
+    <div class="catMenu lime_opto">
+        <a href="https://www.opto-e.cn/products/software" target="_self" title="软件" >
+        <span class="span_icon lime_opto"></span>
+        <span class="catTitle">软件</span>
+        </a>
+    </div>
+    
+    <div class="catMenu giallo_opto">
+        <a href="https://www.opto-e.cn/产品/配件家庭" target="_self" title="配件" >
+        <span class="span_icon giallo_opto"></span>
+        <span class="catTitle">配件</span>
+        </a>
+    </div>
+    
+    <div class="catMenu pink_opto">
+        <a href="https://www.opto-e.cn/products/vision-systems" target="_self" title="AI 视觉单元" >
+        <span class="span_icon pink_opto"></span>
+        <span class="catTitle">AI 视觉单元</span>
+        </a>
+    </div>
+    
+</div>
+
+<div class='banner' id=banner1>
+    <div class="splash_bg" data-link="" title="Discover more!">
+        <div class="bannerTitle"></div>
+    </div>
+</div><div class='banner' id=banner2>
+		<div class="tab_head">
+		<ul>
+			<li class="active"><a href="#" class="tab_roadshow">Roadshow</a></li>
+			<li><a href="#" class="tab_award"><p>获奖情况</p></a></li>
+			<li><a href="#" class="tab_technology"><p>技术</p></a></li>
+			<li><a href="#" class="tab_innovation"><p>创新</p></a></li>
+			<li><a href="#" class="tab_quality"><p>品质</p></a></li>
+			<li><a href="#" class="tab_custom">定制光源</a></li>
+			<li><a href="https://www.opto-e.cn/company-videos" class="tab_video"><p>视频</p></a></li>
+		</ul>
+		</div>
+		<div class="tab_group">
+			<div class="tab tab_roadshow active">
+				<div class="tab_content">
+					<p><a href="https://www.myoepage.com/roadshow/events" class="more">发现更多...</a></p>
+				</div>
+			</div>
+			<div class="tab tab_award">
+				<div class="tab_content">
+					<h2>Adaptive lens for fast focusing   AO series honored by Vision Systems Design 2018 Innovators Awards Program</h2>
+					<p><a href="https://www.opto-e.cn/company-awards" class="more"><p>阅读更多</p></a></p>
+				</div>
+			</div>
+			<div class="tab tab_technology">
+				<div class="tab_content">
+				<h2>简单会更好</h2>
+<p>我们通过不断提高远心镜头的光学性能、质量控制和易用性，树立双远心技术的新标准。</p>
+<p>我们的指导原则<strong>简单会更好</strong>将光学与机械完美地融合在一起。</p>
+<p>我们根据客户对性能和价格的预期制定设计目标。实现产品的精益生产和高度模块化生产可确保供应链效率，使我们的生产快速、灵活、可靠。</p>				<p><a href="https://www.opto-e.cn/resources/oe-bi-telecentric-technology" class="more"><p>阅读更多</p></a></p>
+				</div>
+			</div>
+			<div class="tab tab_innovation">
+				<div class="tab_content">
+				<h2>创新设计</h2>
+<p>Opto Engineering依托专有创新技术研发各种先进的光学产品。</p>
+<p>其中一些光学产品在机器视觉领域设定了新标准，并且改变了许多行业中产品的质量控制方式：这为我们的直接或间接客户以及整个质量控制行业带来了新价值。</p>
+<p>我们可以说我们不是机器视觉市场的跟随者，我们是其创新者：我们的光学产品技艺始终领先当前市场水平一步。</p>				
+				<p><a href="https://www.opto-e.cn/company-profile" class="more"><p>阅读更多</p></a></p>
+				</div>
+			</div>
+			<div class="tab tab_quality">
+				<div class="tab_content">
+				<h2>我们不止是说到，我们更会做到</h2>
+<p>我们每年都会大力投资开发专用测试工具和制定严格的质量控制程序：Opto Engineering是业内第一家为每一个单镜头提供单独测试报告的公司。</p>
+<p>在整个产品阵容中，我们交付给客户的所有产品与我们提供的产品规格完全契合。</p>
+<p>此外，远心镜头测试协议已通过德国莱茵T&Uuml;V验证。我们不止是说到，我们更会做到。</p>				<p><a href="https://www.opto-e.cn/company-quality" class="more"><p>阅读更多</p></a></p>
+				</div>
+			</div>
+			<div class="tab tab_custom">
+				<div class="tab_content">
+				<h2>不能从我们标准产品范围里找到合适的光源？</h2>
+				<p>Opto Engineering能针对您的应用特别设计、制作光源。</p>
+				<p><a href="https://www.opto-e.cn/custom-lights" class="more"><p>阅读更多</p></a></p>
+				</div>
+			</div>			
+		</div>
+
+</div>
+<div class='banner' id=banner3>
+	<div class='Intro'>
+		<div class='Profile'>
+			<article>
+<h1>Opto Engineering &reg;</h1>
+<p>设计，制造和销售成像组件以解决所有机器视觉应用。</p>
+<p>如今，我们可说是<strong>光学成像技术领域</strong>的翘楚</p>
+</article>		</div>
+		
+		<div class='High'>			
+			<h3><a href="https://www.opto-e.cn/products-highlights" title="发现更多..." >产品亮点</a></h3>
+			
+
+<div class="highlights hlslider">
+    
+	<ul class="slides">
+							<li>
+					<a href="https://www.opto-e.cn/制品/TC3MHR-TC5MHR-CORE-PLUS-超紧凑型大视场远心镜头" class="" title="超紧凑型大视场远心镜头，最大支持 4/3" 面阵探测器"><img src="/media/cache/main_TCCPxMHR_2078_150x148.13_thumb.jpg" alt="超紧凑型大视场远心镜头，最大支持 4/3" 面阵探测器" /><h4>TC3MHR-TC5MHR CORE PLUS 系列</h4><p>超紧凑型大视场远心镜头，最大支持 4/3" 面阵探测器</p></a>				
+				</li>
+							<li>
+					<a href="https://www.opto-e.cn/制品/高功率频闪-LED-小角度漫射型环形光源-LTLA-系列" class="" title="频闪控制器"><img src="/media/cache/main_LtdvExCH-20_1137_150x112.5_thumb.jpg" alt="频闪控制器" /><h4>LTDV 系列</h4><p>频闪控制器</p></a>				
+				</li>
+							<li>
+					<a href="https://www.opto-e.cn/products/COE-HR-AS-X-series" class="" title="适用于高速应用的20MP、26MP和 29MP面扫描相机"><img src="/media/cache/main_2531_150x112.5_thumb.jpg" alt="适用于高速应用的20MP、26MP和 29MP面扫描相机" /><h4>COE HR AS-X 系列</h4><p>适用于高速应用的20MP、26MP和 29MP面扫描相机</p></a>				
+				</li>
+							<li>
+					<a href="https://www.opto-e.cn/software-library-and-stand-alone-tools-for-the-optimization-of-telecentric-setups" class="" title="用于远心装置优化的软件库和独立工具"><img src="/media/cache/Famiglie_web16_2220_150x106_thumb.jpg" alt="用于远心装置优化的软件库和独立工具" /><h4>TCLIB Suite</h4><p>用于远心装置优化的软件库和独立工具</p></a>				
+				</li>
+							<li>
+					<a href="https://www.opto-e.cn/制品/LTCLHP-CORE-PLUS-节省空间的远心照明器-适用于大视场系统" class="" title="<div>节省空间的远心照明器，适用于大视场系统</div>"><img src="/media/cache/ltclcp_main_2065_150x145.13_thumb.jpg" alt="<div>节省空间的远心照明器，适用于大视场系统</div>" /><h4>LTCLHP CORE PLUS 系列</h4><p><div>节省空间的远心照明器，适用于大视场系统</div></p></a>				
+				</li>
+							<li>
+					<a href="https://www.opto-e.cn/products/8x-bi-telecentric-zoom-lenses-with-motorized-control" class="" title="8x bi-telecentric zoom lenses with motorized control"><img src="/media/cache/main_2187_150x108.56_thumb.jpg" alt="8x bi-telecentric zoom lenses with motorized control" /><h4>TCZRS series</h4><p>8x bi-telecentric zoom lenses with motorized control</p></a>				
+				</li>
+							<li>
+					<a href="https://www.opto-e.cn/high-power-LED-ring-illuminators-oblique-type" class="" title="高功率 LED 环形照明器 - 斜射型"><img src="/media/cache/main_2203_150x112.5_thumb.jpg" alt="高功率 LED 环形照明器 - 斜射型" /><h4>LTRNOBHP 系列</h4><p>高功率 LED 环形照明器 - 斜射型</p></a>				
+				</li>
+							<li>
+					<a href="https://www.opto-e.cn/high-uniformity-continuous-LED-backlights" class="" title="高均匀性连续 LED 背光源"><img src="/media/cache/LTBP_family_2222_150x98.27_thumb.jpg" alt="高均匀性连续 LED 背光源" /><h4>LT2BC 系列</h4><p>高均匀性连续 LED 背光源</p></a>				
+				</li>
+							<li>
+					<a href="https://www.opto-e.cn/制品/coe-高分辨率面扫描相机" class="" title="29MP、48MP 和 71MP 用于高速应用的区域扫描相机 "><img src="/media/cache/AreaScanMain_2048_150x112.5_thumb.jpg" alt="29MP、48MP 和 71MP 用于高速应用的区域扫描相机 " /><h4>COE HR AS系列</h4><p>29MP、48MP 和 71MP 用于高速应用的区域扫描相机 </p></a>				
+				</li>
+							<li>
+					<a href="https://www.opto-e.cn/制品/coe-高分辨率线扫描相机" class="" title="用于高速扫描的 57.3 mm 线扫描 CMOS 传感器"><img src="/media/cache/coe_line_main_2055_150x122.44_thumb.jpg" alt="用于高速扫描的 57.3 mm 线扫描 CMOS 传感器" /><h4>COE HR LS系列</h4><p>用于高速扫描的 57.3 mm 线扫描 CMOS 传感器</p></a>				
+				</li>
+							<li>
+					<a href="https://www.opto-e.cn/制品/机器视觉软件与程序库" class="" title="机器视觉软件与库"><img src="/media/cache/Famiglie_web15_2018_150x106_thumb.jpg" alt="机器视觉软件与库" /><h4>FABIMAGE</h4><p>机器视觉软件与库</p></a>				
+				</li>
+							<li>
+					<a href="https://www.opto-e.cn/制品/penso-基于人工智能的视觉装置" class="" title="基于人工智能的成像应用计算单元"><img src="/media/cache/Famiglie_web18_2085_150x106_thumb.jpg" alt="基于人工智能的成像应用计算单元" /><h4>PENSO<sup>&reg;</sup></h4><p>基于人工智能的成像应用计算单元</p></a>				
+				</li>
+					</a>
+	  </ul>
+</div>
+
+		</div>
+	</div>
+	
+	<div class='News'>
+        <h3><a href="https://www.opto-e.cn/wp/category/news/" title="发现更多..." ><p>最新消息</p></a></h3>
+        <div class="news_list">
+			
+    <div class="item">
+        <h4><a href="https://www.opto-engineering.com/wp/?p=2615" title="把它变简单一点：适用于Opto Engineering镜头的最搭配的相机">把它变简单一点：适用于Opto Engineering镜头的最搭配的相机</a></h4>
+        <div class="news_details">
+        <span>08 August, 2019</span>
+        </div>
+    </div>
+    
+
+    <div class="item">
+        <h4><a href="https://www.opto-engineering.com/wp/?p=2608" title="Make it easy: the right camera for your Opto Engineering lens">Make it easy: the right camera for your Opto Engineering lens</a></h4>
+        <div class="news_details">
+        <span>08 August, 2019</span>
+        </div>
+    </div>
+    
+
+    <div class="item">
+        <h4><a href="https://www.opto-engineering.com/wp/?p=2606" title="TCLIB Suite – 在远心装置上具有无与伦比的测量可重复性">TCLIB Suite – 在远心装置上具有无与伦比的测量可重复性</a></h4>
+        <div class="news_details">
+        <span>02 August, 2019</span>
+        </div>
+    </div>
+    
+
+    <div class="item">
+        <h4><a href="https://www.opto-engineering.com/wp/?p=2599" title="TCLIB Suite – unmatched measurement repeatability on your telecentric setup">TCLIB Suite – unmatched measurement repeatability on your telecentric setup</a></h4>
+        <div class="news_details">
+        <span>02 August, 2019</span>
+        </div>
+    </div>
+    
+
+    <div class="item">
+        <h4><a href="https://www.opto-engineering.com/wp/?p=2591" title="完美匹配：用于高速检测腔体和侧面的镜头和光源">完美匹配：用于高速检测腔体和侧面的镜头和光源</a></h4>
+        <div class="news_details">
+        <span>25 July, 2019</span>
+        </div>
+    </div>
+    
+
+    <div class="item">
+        <h4><a href="https://www.opto-engineering.com/wp/?p=2584" title="A perfect match: specialty lenses and lights for high speed 360° inspection">A perfect match: specialty lenses and lights for high speed 360° inspection</a></h4>
+        <div class="news_details">
+        <span>25 July, 2019</span>
+        </div>
+    </div>
+    
+			
+	
+        </div>
+    </div>	
+	
+	<div class='Events'>
+		<h3><a href="https://www.opto-e.cn/wp/category/events/" title="发现更多..." ><p>即将开始的活动</p></h3>
+        <div class="events_list">	<div class="item">
+		<a href="https://www.opto-engineering.com/wp/?p=2528" title="Vision China Shenzhen">
+		<h4>Vision China Shenzhen</h4>
+				<p>October 10 – 12, 2019  |  Shenzhen, China </p>
+		<p> Shenzhen Convention & Exhibition Center </p>
+		<!--p><!--?=$arryEvents[3] ?></p-->
+		</a>
+	</div>
+	   
+	<div class="item">
+		<a href="https://www.opto-engineering.com/wp/?p=2571" title="AOI Forum & Show">
+		<h4>AOI Forum & Show</h4>
+				<p>3rd October 2019  |  Hsinchu, Taiwan </p>
+		<p> Electronic Information Building, Hsinchu Jiaotong University </p>
+		<!--p><!--?=$arryEvents[3] ?></p-->
+		</a>
+	</div>
+	   
+	<div class="item">
+		<a href="https://www.opto-engineering.com/wp/?p=2504" title="Taipei Int. Ind. Automation Exhibition">
+		<h4>Taipei Int. Ind. Automation Exhibition</h4>
+				<p>August 21 – 24, 2019  |  Taipei, TAIWAN </p>
+		<p> Taipei Nangang Exhibition Center </p>
+		<!--p><!--?=$arryEvents[3] ?></p-->
+		</a>
+	</div>
+	   
+			
+			
+</div>
+		<div class="book">
+			<a href="https://www.opto-e.cn/book-exhibition" title="发现更多..."><h3>与我们的销售工程师</h3>
+<p>预约</p></a>		</div>
+    </div>
+	
+</div>
+	<div class="banner" id="banner4">
+	
+<div class="bottomBox">
+	<div class="tabb">
+		<a href="https://www.opto-e.cn/media/downloads/docs/Catalog_CN_2019_low.pdf" target="_blank" class="" title="Download PDF"><i class="icon-file-pdf"></i>Catalog 2019</a>	</div>
+	<div class="tabb">		
+		<a href="https://www.opto-e.cn/media/downloads/docs/.pdf" target="_blank" class="" title="Download PDF"><i class="icon-file-pdf"></i>Lighting Brochure</a>	</div>
+	
+	<div class="tabb homevideo">
+            <a href="http://player.youku.com/player.php/sid/XMjUxOTMxNDgxMg==/v.swf" title="Watch the corporate video"><i class="icon-video"></i>Watch the corporate video</a>			<span id="teaserVid" href="" class="hide"></span>
+    </div>
+    <div class="tabb">
+		        		<a href="https://www.opto-e.cn/application-notes" title="应用说明 发现更多..."><i class="icon-pencil"></i>应用说明</a>	</div>
+	
+	<div class="tabb">
+		<a href="https://www.opto-e.cn/selection_form" title="Discover our lens selection tool!">
+               <!--span class="span_icon lensmen_icon"></span-->
+			   <i class="icon-auto"></i>
+				镜头选择表        </a>			
+	</div>
+        
+    <div class="tabb">
+		<div class="fixedbannerbig">
+	
+	<div class="fixedbannerbigdiv">
+		<button title="Close (Esc)" type="button" class="Xclose mfp-close">×</button>
+		Opto-Engineering&#174; is now hiring.<br>
+		See open positions here <br>
+		and get in touch today!<br>
+		<b><a href="https://www.opto-e.cn/jobs" title="Job Opportunity">Job Opportunity</a></b>		
+	</div>
+
+	<div class="fixedbannersmalldiv">		
+		<!--a href="#" id="wearehiring" title="We're Hiring!"><i class="icon-envelop"></i>We're Hiring!</a-->
+		<a href="https://www.opto-e.cn/jobs" title="We're Hiring!"><i class="icon-envelop"></i>We're Hiring!</a>	</div>
+</div>
+
+
+<style type="text/css">
+
+.fixedbannersmall,.fixedbannerbig{
+	position: absolute;
+	width: 100%;
+    bottom: 20px;
+    left: 0;
+    /*z-index: 2147483645;*/
+    text-align: center;	
+}
+.fixedbannersmalldiv a{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;    
+    /*line-height: 45px !important;*/
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    /*font-size: 1.33333em;*/
+	border-radius: 6px 6px 0 0;
+	/*-moz-border-radius: 6px 6px 0 0;*/
+	-webkit-border-radius: 6px 6px 0 0;
+	width: 100%;
+	text-decoration: none;	
+	/*padding: 2px 30px 0;*/
+	position: absolute;
+    left: 0;
+    bottom: 5px;
+}
+
+.fixedbannerbigdiv{
+	color: #333 !important;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    /*padding: 2px 30px 0;*/
+	width: 100%;
+    line-height: 45px !important;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 1.1111em;
+	border: 5px solid #3f86c2; 
+	border-radius: 6px 6px 0 0;
+	background-color: #fff;
+	
+    
+	/*background-color: #E85236;*/
+	display: none;
+	-webkit-transition: opacity 1s ease-in-out;
+       -moz-transition: opacity 1s ease-in-out;
+        -ms-transition: opacity 1s ease-in-out;
+         -o-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
+}
+
+
+.fixedbannerbigdiv a {
+	text-decoration: none;
+	color: #fff !important;
+	background-color: #3f86c2;
+	padding: 15px;
+	font-size: 1.3333em;
+	font-weight: bold;
+	border-radius: 6px 6px 0 0;
+}
+.fixedbannersmalldiv a:hover,.fixedbannerbigdiv a:hover {
+	cursor: pointer;	
+	 -webkit-filter: grayscale(100%);
+	/*-moz-filter: grayscale(100%);*/
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.Xclose {color: #333 !important;}
+
+
+@media screen and (min-width:800px){
+	.fixedbannersmall,.fixedbannerbig{
+		bottom: 0;
+	}
+}
+</style>
+	</div>
+</div>
+
+</div>
+
+<div class="banner" id="contactmap" >		
+	<div class="box banner keepintouch">				
+						
+		<div class="banner subscribe_newsletter">
+			<h2><strong>Keep in touch</strong></h2>
+			<p>Subscribe our newsletter</p>
+						<input type="button" name="Subscribemailup" value="Subscribe" id="Subscribemailup" class="general_download"  />
+			<small><p>* After submit we'll ask you to check your consense to use Your data</p>
+</small>
+			<!--?= form_open('https://a6f5c.s28.it/frontend/Subscribe.aspx', 'name="mySubForm" id="mySubForm"'); ?-->				
+			<!--?= form_open('message/subscribe_newsletter', array('name'=>'mySubForm' ,'id'=>'mySubForm' )); ?-->				
+						
+
+<div class="checkprivacybox white-magpopup mfp-hide">
+	
+	<div class="submit_container">
+			<label><strong>E-mail</strong></label>
+			<input type="text" name="form_email" value="" id="form_email" placeholder="Your email address..."  />
+			<p class="oe-conditions">Please, insert a valid E-mail and accept conditions.</p>
+	</div>
+	
+					<div class="submit_container">
+			<label><strong>国家/地区</strong></label>
+			<select name="list_country" class="list_country">
+<option value="DE">Germany</option>
+<option value="US">United States</option>
+<option value="CN" selected="selected">China</option>
+<option value="GB">United Kingdom</option>
+<option value="FR">France</option>
+<option value="TW">Taiwan</option>
+<option value="IT">Italy</option>
+<option value="JP">Japan</option>
+<option value="KR">Korea, Republic Of</option>
+<option value="IN">India</option>
+<option value="AF">Afghanistan</option>
+<option value="AL">Albania</option>
+<option value="DZ">Algeria</option>
+<option value="AS">American Samoa</option>
+<option value="AD">Andorra</option>
+<option value="AO">Angola</option>
+<option value="AI">Anguilla</option>
+<option value="AQ">Antarctica</option>
+<option value="AG">Antigua And Barbuda</option>
+<option value="AR">Argentina</option>
+<option value="AM">Armenia</option>
+<option value="AW">Aruba</option>
+<option value="AU">Australia</option>
+<option value="AT">Austria</option>
+<option value="AZ">Azerbaijan</option>
+<option value="BS">Bahamas</option>
+<option value="BH">Bahrain</option>
+<option value="BD">Bangladesh</option>
+<option value="BB">Barbados</option>
+<option value="BY">Belarus</option>
+<option value="BE">Belgium</option>
+<option value="BZ">Belize</option>
+<option value="BJ">Benin</option>
+<option value="BM">Bermuda</option>
+<option value="BT">Bhutan</option>
+<option value="BO">Bolivia</option>
+<option value="BA">Bosnia And Herzegowina</option>
+<option value="BW">Botswana</option>
+<option value="BV">Bouvet Island</option>
+<option value="BR">Brazil</option>
+<option value="IO">British Indian Ocean Territory</option>
+<option value="BN">Brunei Darussalam</option>
+<option value="BG">Bulgaria</option>
+<option value="BF">Burkina Faso</option>
+<option value="BI">Burundi</option>
+<option value="KH">Cambodia</option>
+<option value="CM">Cameroon</option>
+<option value="CA">Canada</option>
+<option value="CV">Cape Verde</option>
+<option value="KY">Cayman Islands</option>
+<option value="CF">Central African Republic</option>
+<option value="TD">Chad</option>
+<option value="CL">Chile</option>
+<option value="CX">Christmas Island</option>
+<option value="CC">Cocos (Keeling) Islands</option>
+<option value="CO">Colombia</option>
+<option value="KM">Comoros</option>
+<option value="CG">Congo</option>
+<option value="CD">Congo, The Democratic Republic Of The</option>
+<option value="CK">Cook Islands</option>
+<option value="CR">Costa Rica</option>
+<option value="CI">Cote D'Ivoire</option>
+<option value="HR">Croatia (Local Name: Hrvatska)</option>
+<option value="CU">Cuba</option>
+<option value="CY">Cyprus</option>
+<option value="CZ">Czech Republic</option>
+<option value="DK">Denmark</option>
+<option value="DJ">Djibouti</option>
+<option value="DM">Dominica</option>
+<option value="DO">Dominican Republic</option>
+<option value="TP">East Timor</option>
+<option value="EC">Ecuador</option>
+<option value="EG">Egypt</option>
+<option value="SV">El Salvador</option>
+<option value="GQ">Equatorial Guinea</option>
+<option value="ER">Eritrea</option>
+<option value="EE">Estonia</option>
+<option value="ET">Ethiopia</option>
+<option value="FK">Falkland Islands (Malvinas)</option>
+<option value="FO">Faroe Islands</option>
+<option value="FJ">Fiji</option>
+<option value="FI">Finland</option>
+<option value="FX">France, Metropolitan</option>
+<option value="GF">French Guiana</option>
+<option value="PF">French Polynesia</option>
+<option value="TF">French Southern Territories</option>
+<option value="GA">Gabon</option>
+<option value="GM">Gambia</option>
+<option value="GE">Georgia</option>
+<option value="GH">Ghana</option>
+<option value="GI">Gibraltar</option>
+<option value="GR">Greece</option>
+<option value="GL">Greenland</option>
+<option value="GD">Grenada</option>
+<option value="GP">Guadeloupe</option>
+<option value="GU">Guam</option>
+<option value="GT">Guatemala</option>
+<option value="GN">Guinea</option>
+<option value="GW">Guinea-Bissau</option>
+<option value="GY">Guyana</option>
+<option value="HT">Haiti</option>
+<option value="HM">Heard And Mc Donald Islands</option>
+<option value="VA">Holy See (Vatican City State)</option>
+<option value="HN">Honduras</option>
+<option value="HK">Hong Kong</option>
+<option value="HU">Hungary</option>
+<option value="IS">Iceland</option>
+<option value="ID">Indonesia</option>
+<option value="IR">Iran (Islamic Republic Of)</option>
+<option value="IQ">Iraq</option>
+<option value="IE">Ireland</option>
+<option value="IL">Israel</option>
+<option value="JM">Jamaica</option>
+<option value="JO">Jordan</option>
+<option value="KZ">Kazakhstan</option>
+<option value="KE">Kenya</option>
+<option value="KI">Kiribati</option>
+<option value="KP">Korea, Democratic People's Republic Of</option>
+<option value="KW">Kuwait</option>
+<option value="KG">Kyrgyzstan</option>
+<option value="LA">Lao People's Democratic Republic</option>
+<option value="LV">Latvia</option>
+<option value="LB">Lebanon</option>
+<option value="LS">Lesotho</option>
+<option value="LR">Liberia</option>
+<option value="LY">Libyan Arab Jamahiriya</option>
+<option value="LI">Liechtenstein</option>
+<option value="LT">Lithuania</option>
+<option value="LU">Luxembourg</option>
+<option value="MO">Macau</option>
+<option value="MK">Macedonia, Former Yugoslav Republic Of</option>
+<option value="MG">Madagascar</option>
+<option value="MW">Malawi</option>
+<option value="MY">Malaysia</option>
+<option value="MV">Maldives</option>
+<option value="ML">Mali</option>
+<option value="MT">Malta</option>
+<option value="MH">Marshall Islands</option>
+<option value="MQ">Martinique</option>
+<option value="MR">Mauritania</option>
+<option value="MU">Mauritius</option>
+<option value="YT">Mayotte</option>
+<option value="MX">Mexico</option>
+<option value="FM">Micronesia, Federated States Of</option>
+<option value="MD">Moldova, Republic Of</option>
+<option value="MC">Monaco</option>
+<option value="MN">Mongolia</option>
+<option value="MS">Montserrat</option>
+<option value="MA">Morocco</option>
+<option value="MZ">Mozambique</option>
+<option value="MM">Myanmar</option>
+<option value="NA">Namibia</option>
+<option value="NR">Nauru</option>
+<option value="NP">Nepal</option>
+<option value="NL">Netherlands</option>
+<option value="AN">Netherlands Antilles</option>
+<option value="NC">New Caledonia</option>
+<option value="NZ">New Zealand</option>
+<option value="NI">Nicaragua</option>
+<option value="NE">Niger</option>
+<option value="NG">Nigeria</option>
+<option value="NU">Niue</option>
+<option value="NF">Norfolk Island</option>
+<option value="MP">Northern Mariana Islands</option>
+<option value="NO">Norway</option>
+<option value="OM">Oman</option>
+<option value="PK">Pakistan</option>
+<option value="PW">Palau</option>
+<option value="PA">Panama</option>
+<option value="PG">Papua New Guinea</option>
+<option value="PY">Paraguay</option>
+<option value="PE">Peru</option>
+<option value="PH">Philippines</option>
+<option value="PN">Pitcairn</option>
+<option value="PL">Poland</option>
+<option value="PT">Portugal</option>
+<option value="PR">Puerto Rico</option>
+<option value="QA">Qatar</option>
+<option value="RE">Reunion</option>
+<option value="RO">Romania</option>
+<option value="RU">Russian Federation</option>
+<option value="RW">Rwanda</option>
+<option value="KN">Saint Kitts And Nevis</option>
+<option value="LC">Saint Lucia</option>
+<option value="VC">Saint Vincent And The Grenadines</option>
+<option value="WS">Samoa</option>
+<option value="SM">San Marino</option>
+<option value="ST">Sao Tome And Principe</option>
+<option value="SA">Saudi Arabia</option>
+<option value="SN">Senegal</option>
+<option value="SC">Seychelles</option>
+<option value="SL">Sierra Leone</option>
+<option value="SG">Singapore</option>
+<option value="SK">Slovakia (Slovak Republic)</option>
+<option value="SI">Slovenia</option>
+<option value="SB">Solomon Islands</option>
+<option value="SO">Somalia</option>
+<option value="ZA">South Africa</option>
+<option value="GS">South Georgia, South Sandwich Islands</option>
+<option value="ES">Spain</option>
+<option value="LK">Sri Lanka</option>
+<option value="SH">St. Helena</option>
+<option value="PM">St. Pierre And Miquelon</option>
+<option value="SD">Sudan</option>
+<option value="SR">Suriname</option>
+<option value="SJ">Svalbard And Jan Mayen Islands</option>
+<option value="SZ">Swaziland</option>
+<option value="SE">Sweden</option>
+<option value="CH">Switzerland</option>
+<option value="SY">Syrian Arab Republic</option>
+<option value="TJ">Tajikistan</option>
+<option value="TZ">Tanzania, United Republic Of</option>
+<option value="TH">Thailand</option>
+<option value="TG">Togo</option>
+<option value="TK">Tokelau</option>
+<option value="TO">Tonga</option>
+<option value="TT">Trinidad And Tobago</option>
+<option value="TN">Tunisia</option>
+<option value="TR">Turkey</option>
+<option value="TM">Turkmenistan</option>
+<option value="TC">Turks And Caicos Islands</option>
+<option value="TV">Tuvalu</option>
+<option value="UG">Uganda</option>
+<option value="UA">Ukraine</option>
+<option value="AE">United Arab Emirates</option>
+<option value="UM">United States Minor Outlying Islands</option>
+<option value="UY">Uruguay</option>
+<option value="UZ">Uzbekistan</option>
+<option value="VU">Vanuatu</option>
+<option value="VE">Venezuela</option>
+<option value="VN">Viet Nam</option>
+<option value="VG">Virgin Islands (British)</option>
+<option value="VI">Virgin Islands (U.S.)</option>
+<option value="WF">Wallis And Futuna Islands</option>
+<option value="EH">Western Sahara</option>
+<option value="YE">Yemen</option>
+<option value="RS">Republic of Serbia</option>
+<option value="ZM">Zambia</option>
+<option value="ZW">Zimbabwe</option>
+</select>
+		</div>
+		
+	<dl>
+        <dt><input type="checkbox" name="form_policy" value="" checked="checked" id="form_policy"  />
+</dt>
+        <dd class="due"><p>With this you authorize the treatment of your personal data and give us a consense to contact you in order to work on your commercial requests and to be able to send you our best offers to cover your needs. For more details, please, <a href="/cookies-privacy-policy" target="_blank"  title="Cookies & privacy policy">read here</a>(MANDATORY)</p></dd>	
+			<dt><input type="checkbox" name="form_newsletter" value="" checked="checked" id="form_newsletter"  />
+</dt>
+			<dd class="due"><p>With this you authorize the treatment of your personal data and give us a consense to contact you and send you email newsletters about products, sales, events, company announcements and to be able to send you our best offers to cover your needs. Newsletter are sent (roughly) twice a month. We will NOT spam or abuse your email in any way. For more details, please, <a href="/cookies-privacy-policy" target="_blank"  title="Cookies & privacy policy">read here</a>(OPTIONAL)</p></dd>
+			<dt><input type="checkbox" name="form_catalog" value="" id="form_catalog"  />
+</dt>
+			<dd class="due"><p>With this you authorize the treatment of your personal data and give us a consense to contact you and send you our product catalog by traditional mail (every two years). For more details, please, <a href="/cookies-privacy-policy" target="_blank"  title="Cookies & privacy policy">read here</a>(OPTIONAL)</p></dd>
+    </dl>	
+    <div class="submit_container">
+        <input type="button" name="generalSubmit" value="Confirm" id="generalSubmit" class="general_download_inverso"  />
+    </div>
+	<div class="esito">
+	</div>
+</div>
+
+<script type="text/javascript" language="Javascript">
+	var $policyObj;
+	$(document).ready(function(){        
+		$('#generalSubmit').click(function(){
+			//$(formame).submit();
+			//console.log($(formame).serialize());
+			$policyObj=new Object({});
+			$submail=$('#form_email').val();
+			if(($submail.length > 0) && ($submail.indexOf('@') !== -1) && ($submail.indexOf('.') !== -1) ){
+				//console.log($('#form_email').val());
+				$policyObj.email=$('#form_email').val();
+				$('.oe-conditions').fadeOut(400);
+			}else{
+				$('.oe-conditions').fadeIn(500);
+				return false;
+			}
+			
+			if(typeof $('#form_policy') !== 'undefined'){
+				$policyObj.policy=$('#form_policy').prop('checked');	
+			}
+			
+			if(typeof $('#form_newsletter') !== 'undefined'){
+				$policyObj.newsletter=$('#form_newsletter').prop('checked');	
+			}
+			
+			if(typeof $('#form_catalog') !== 'undefined'){
+				$policyObj.catalog=$('#form_catalog').prop('checked');	
+			}
+			
+			if($('.list_country').length !== 0){
+				$policyObj.lang=$('.list_country option:selected').val();
+			}else{
+				$policyObj.lang=$(myformsubmit + ' .country option:selected').val();
+			}
+			
+			subscribepolicy($policyObj);
+	});
+		
+		$('#form_policy').change(function(){					
+			if($(this).prop('checked') === true) {
+				$('.submit_container').fadeIn(400);
+			}else{
+				$('.submit_container').fadeOut(500);
+			}					
+		});
+    });        
+    
+	var myformsubmit;
+    
+	function policypop(args,myform,inputmail) {
+			if (typeof inputmail !== "undefined"){
+				$('#form_email').val(inputmail);
+			}
+									
+			if (typeof myform !== "undefined"){
+				myformsubmit =myform;
+			}						
+			
+            $.magnificPopup.open({
+                items: {src: args },
+				focus: '#form_policy',
+                type: 'inline',
+				preloader: false,
+				callbacks: {
+					beforeClose: function() {
+						$(myform).find("input[name='privacycondition']").val(encodeURIComponent(JSON.stringify($policyObj)));
+					},
+					afterClose:function(){						
+						$(myform).submit();
+						tagga();
+					}
+				}
+            });
+						
+    }
+	
+
+	function subscribepolicy($polObj){
+		//console.log($polObj);
+		//return false;
+		$.ajax({
+		  beforeSend: function(){$('.esito').addClass("loading");},
+          url: '/message/subscribe_newsletter',
+          data : { param : $polObj },
+          dataType: 'text',
+          type : 'post',
+		  complete: function(){$('.esito').removeClass("loading");}
+      })
+      
+      .done(function( msg ) {
+        //console.log(msg);
+         var Myobj = jQuery.parseJSON( msg );
+		 $('.esito').append(Myobj.msg);			
+		 //if(Myobj.result === 1 ){
+			$('.esito').fadeOut(1500,function(){
+				$.magnificPopup.instance.close();
+			});
+		// }else{
+		//	$.magnificPopup.instance.close();
+		// }
+		 
+      }); 
+		
+	}
+	
+	function tagga(){
+		var categoria = 'Contatto Form';
+		var azione    = 'Submit';
+		//var etichetteDisponibili = [
+		//	'General', 'Sales', 'Support', 'Quote', 'Custom Light'
+		//];
+		var etichetta = $('input[name=enquiry]').val();
+		//console.log(etichetta);
+		var optional_value;
+		
+		//if($('input[name=sale_reference]').val() !== 0){
+		//	optional_value=$('input[name=sale_reference]').val();					
+		//}else{
+		//	optional_value=window.location.href ;								
+		//}
+		
+		if($('select[name=exhibition]').val() !== 0){ 
+			optional_value = $(myformsubmit + ' .events option:selected').val();
+		}else{
+			optional_value = $(myformsubmit + ' .trade option:selected').val();	
+		}
+		
+		gtag('event', azione, {
+			'event_category': categoria,
+			'event_label'   : etichetta,
+			'value'         : optional_value
+		});
+		
+		ga('send', 'event', categoria, azione, etichetta);
+		console.log( categoria +' '+ azione +' '+ etichetta);
+	}
+    
+</script>
+
+												
+		</div>
+		
+		<div class="banner contact">
+			<a href="https://www.opto-e.cn/contacts-opto" title="联系我们" alt="联系我们"><h2 class="contactsText"><span class="span_icon contact_icon"></span>联系我们</h2><p> ask quote & technical support </p></a>		</div>
+		
+		<div class="banner subscribe_other">
+			<div class="social">
+				<h2><strong>Follow us</strong></h2>
+									<ul>
+						<li><a target="_blank" href="https://i.youku.com/u/UMjczNjIwNDM1Ng==" class="social_icon yk_icon" title="Youku"></a></li>
+						<li><a target="_blank" href="http://weixin.qq.com/r/NjsVDT-EtGLLrXtu924k" class="social_icon qq_icon" title="QQ"></a></li>
+						<!--li><a target="_blank" href="https://weibo.com/optoengineering" class="social_icon wb_icon" title="Weibo"></a></li-->
+						<li><a target="_blank" href="https://qzone1543157024.yupoo.com" class="social_icon yp_icon" title="YuPoo"></a></li>
+						<li><a target="_blank" href="https://www.linkedin.com/company/opto-engineering" class="social_icon lk_icon" title="Linkedin"></a></li>
+					</ul>
+							</div>
+		</div>
+	</div>
+		
+	<div class="box banner cataloghi">
+		
+		<div class="Cataflex">
+		<a href="https://www.opto-e.cn/media/downloads/docs/Catalog_CN_2019_low.pdf" class="sweepfx">
+			<span class="res_image"><img src="https://www.opto-e.cn/assets/img/minicatalog_2019.png" alt="Opto Engineering catalog 2019"></span>
+			<span class="res_title">Catalog 2019</span>
+		</a>
+		</div>
+		<div class="Cataflex">
+			<a href="https://www.opto-e.cn/media/downloads/docs/.pdf" class="sweepfx">
+				<span class="res_image"><img src="https://www.opto-e.cn/assets/img/mini_Lighting_Brochure.png" alt="Opto Engineering Lighting Catalogue"></span>
+				<span class="res_title">Lighting Catalogue</span>
+			</a>
+		</div>
+	</div>
+		
+</div>
+		</nav>
+		<div class="banner" id="banner5"> 	
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+	<ul>
+                    <li   >
+                <a href="https://www.opto-e.cn/company-profile" title="公司概况">公司概况</a>            </li>
+                    <li   >
+                <a href="https://www.opto-e.cn/who-we-are" title="我们是谁">我们是谁</a>            </li>
+                    <li   >
+                <a href="https://www.opto-e.cn/close-to-you-worldwide" title="在你附近">在你附近</a>            </li>
+                    <li   >
+                <a href="https://www.opto-e.cn/company-awards" title="产品奖">产品奖</a>            </li>
+                    <li   >
+                <a href="https://www.opto-e.cn/company-history" title="历史背景">历史背景</a>            </li>
+                    <li   >
+                <a href="https://www.opto-e.cn/company-quality" title="品质">品质</a>            </li>
+                    <li   >
+                <a href="https://www.opto-e.cn/company-videos" title="视频">视频</a>            </li>
+                    <li   >
+                <a href="https://www.opto-e.cn/joint-ventures" title="Joint ventures">Joint ventures</a>            </li>
+                    <li   >
+                <a href="https://www.opto-e.cn/company-partners" title="合作伙伴">合作伙伴</a>            </li>
+                    <li   >
+                <a href="https://www.opto-e.cn/wp" title="<p>最新消息</p>"><p>最新消息</p></a>            </li>
+        		
+	</ul>
+	
+</div>
+
+<div class="credits">
+		<p>Opto Engineering Copyright © 2015 - 2019 | P. IVA 02011230204 | All rights reserved 
+		| <a href="https://www.opto-e.cn/tools/termofuse" title="Terms of use" class="termofuse">Terms of use</a>		| <a href="https://www.opto-e.cn/cookies-privacy-policy" title="使用Cookie和隐私政策">使用Cookie和隐私政策</a></p>
+		<p>Design &amp; development by Opto Engineering 
+				SEO and consulting by <a href="http://www.dipiemmestudio.com/" target="_blank" title="dipiemmestudio.com" >Dipiemme Studio</a>
+		</p>		
+</div>
+
+<div class="certificazioni">
+
+	
+	<ul  class="certs">
+		<li><img height="60" src="https://www.opto-e.cn/media/logo_enwhp.jpg" alt="ENWHP Rete Lombardia"></li>
+		<li><img height="60" src="https://www.opto-e.cn/media/logo_iso.jpg" alt="ISO 9001:2015"></li>
+		<li><img height="60" src="https://www.opto-e.cn/media/logo_tuv.jpg" alt="TuvRheinald Certified"></li>
+	</ul>
+	
+	
+</div>
+
+</div>
+
+
+                	</div>	
+		
+
+
+
+  
+
+
+<!--?= $this->mylibrary->carica_js('newhome'); ?-->
+<script src="https://www.opto-e.cn/assets/newJs/home2019.minified.js?v=220857"/></script>
+<script src="https://www.opto-e.cn/assets/chosen_v1.8.7/chosen.jquery.min.js?v=220857"/></script>
+<script src="https://www.opto-e.cn/assets/js/jquery.flexslider.js?v=220857"/></script>
+<script src="https://www.opto-e.cn/assets/magnific-popup/magnific-popup.js?v=220857"/></script>
+	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+
+<div class="modal"></div>
+
+<style type="text/css">
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) url("/assets/img/spinner.gif")
+	50% 25% 
+	no-repeat;
+}
+
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading, site-canvas.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal ,site-canvas.loading .modal{
+    display: block;
+}
+
+
+</style>
+
+<script type="text/javascript">
+    $body = $("body");
+    $site_canvas = $("#site-canvas");
+
+    $(document).on({
+        ajaxStart:  function() { $body.addClass("loading");     $site_canvas.addClass("loading");       },
+        ajaxStop:   function() { $body.removeClass("loading");  $site_canvas.removeClass("loading");    }    
+    });
+    
+    $('.privacy').magnificPopup({
+        items: [{
+        src: $('<p class="mfp-title privacyText">Opto Engineering respects your privacy: your email address will not be sold or shared with third parties and will be used only for company communications.You will be able to easily unsubscribe from this list in any moment.</p>'),
+		type:'inline'
+        }]
+    });
+	
+	$('.termofuse').magnificPopup({
+		type:'iframe',
+		midClick: true, // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+		mainClass: 'mfp-with-zoom',
+		fixedContentPos: false,
+		zoom: {
+				enabled: true, // By default it's false, so don't forget to enable it			
+				duration: 300, // duration of the effect, in milliseconds
+				easing: 'ease-in-out', // CSS transition easing function
+			}
+	});
+	
+	
+	   
+</script>
+
+
+<link href="https://www.opto-e.cn/assets/newCss/wechat.css" rel="stylesheet" media="all" type="text/css" />
+
+<div class="wechatbox">
+	<button title="Close (Esc)" type="button" class="mfp-close wechatclose">×</button>
+	<a target="_blank" href="http://weixin.qq.com/r/NjsVDT-EtGLLrXtu924k">
+		<img src="https://www.opto-e.cn/media/icon/opto-we-chat.png" alt="Opto We Chat" style="width:100px" />				
+	</a>
+</div>
+
+<script type="text/javascript">    
+        $('.wechatclose').click(function(){
+            $('.wechatbox').hide();
+        });
+</script>    	
+</body>
+</html>
