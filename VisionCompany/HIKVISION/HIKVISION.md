@@ -11,3 +11,11 @@
 [MV-CE120-10GM 1200万像素1/1.7" CMOS 千兆以太网工业相机](https://www.hikrobotics.com/vision/visioninfo.htm?type=42&oid=2419)
 
 ### 视觉控制器
+
+
+### Support
+#### [Download](https://www.hikrobotics.com/service/soft.htm)
+
+
+### [算法平台](https://www.hikrobotics.com/vision/visionlist.htm?type=123)
+#### [VM算法平台3.0](https://www.hikrobotics.com/vision/visioninfo.htm?type=123&oid=3281)
