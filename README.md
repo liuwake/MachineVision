@@ -10,6 +10,8 @@
 ### [IRay](IRay)
 ### [VST](https://github.com/liuwake/Vision/tree/master/VisionCompany/VST/README.md)
 ### [51camera](51-camera)
+### Other
+- [烟台永信视觉技术有限公司](https://www.tianyancha.com/company/2325970504) http://yongxinvision.cn.makepolo.com/
 
 ## Integrator
 
