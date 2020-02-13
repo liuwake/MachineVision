@@ -27,3 +27,4 @@
 ### 
 ## Ref
 - [GigE Vision](https://www.cnblogs.com/BKYZFSN/p/11725069.html)
+- [OpenCV with GigE Vision Cameras](https://stackoverflow.com/questions/3345467/opencv-with-gige-vision-cameras)
