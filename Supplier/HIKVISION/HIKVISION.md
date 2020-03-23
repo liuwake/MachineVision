@@ -19,3 +19,6 @@
 
 ### [算法平台](https://www.hikrobotics.com/vision/visionlist.htm?type=123)
 #### [VM算法平台3.0](https://www.hikrobotics.com/vision/visioninfo.htm?type=123&oid=3281)
+
+## Problem
+- 线阵相机直连丢包严重
