@@ -26,3 +26,7 @@
   - 无法常亮模式
   - 相机可能需要12V(可能需要上拉电阻)开关电源外触发LKL
 - [LKL-W210](http://51camera.com.cn/show-39-6-1.html)
+
+### ZQA系列光源一体机
+
+- [ZQA-260W](http://51camera.com.cn/show-39-27-1.html)
