@@ -2,7 +2,8 @@
 
 ## Integrator
 - [Advance](http://www.jiandaoshi.com/) 研发能力强
-###
+### 科研单位
+- [山东省科学院激光研究所](http://www.sdlaser.cn/web/home.do) 有机器视觉平台 下有蓝动激光等公司
 
 ### 解决方案
 - [无锡市鑫祯科技有限公司](http://www.xz-vision.com/wap/index.asp) 主要康耐视,完成基础视觉任务;解决方案简单,官网没有详细的技术介绍;研发能力一般
