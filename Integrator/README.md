@@ -13,6 +13,10 @@
 - [深圳市思普泰克科技有限公司](http://www.siputaike.net/)
 - [深圳市创盈时代科技有限公司](http://www.chytime-ccd.com/contactus/)
 - [广东思诺威视科技有限公司](http://www.sinnovision.net/)
+- [无锡创视新科技有限公司](http://www.mvcreating.com) 铝材金属表面检测,测款测厚
+  - [无锡创视新光电科技有限公司](http://www.create-vision.com/)
+- [敏用智能](http://www.smartdigital.com.cn/)
+  - DL+OCR等
 ### 竞标公司
 - 山西蓝筹电子科技有限公司
   - [太原科技大学3D建模与通信设备购置中标公告](https://www.tianyancha.com/bid/9a8d307543a111e99477506b4b4b2da2)
